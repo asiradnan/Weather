@@ -2,12 +2,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='weather.css'>
     <title>Weather</title>
 </head>
 <body>
-    <p id="main">
-
-    </p>
+    <div class="main">
+        <div class="cont">
+            <div id="weather" class="col"> 
+                <img src="b.jpg" height="200px" width="200px"><br>
+                <p id="res"></p>
+                <input type="text" id="c" placeholder="Enter your city"><br>
+                <button for="c" onclick="city()">Check Weather</button><br>
+                <br><br><br>Check your weather with your current location<br><br>
+                <button onclick="loc()">Check Weather</button>
+                
+            </div>
+            <div class="col" id="map">
+                Another
+            </div>
+        </div>
+    </div>
     <script src="weather.js"></script>
+    <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCggVq9I75nSbD_eZD6MSK4zm0Qqw8v0Ts&callback=initMap">
+
+    </script>
+
 </body>
 </html>
