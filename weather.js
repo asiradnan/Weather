@@ -35,7 +35,6 @@ const byCity = async(cityName) => {
 }
 function show(data){
     result.innerHTML=`Temperature: ${data.main.temp}&degC<br>Feels Like: ${data.main.feels_like}&degC<br>You are currently at ${data.name}.`;
-    console.log(data);
     initMap(data.coord.lat,data.coord.lon);
     
 }
