@@ -9,7 +9,7 @@ Welcome to the Weather App! This simple and user-friendly application allows you
 - **Current Location**: Click the "Use Current Location" button to fetch the weather information based on your device's location.
 
 ## Live Demo
-### https://asiradnan.github.io/Weather/
+### https://weather.asiradnan.com
 ## Acknowledgements
 
 Thanks to OpenWeather and Google Map for providing the APIs with necessary data absolutely for free.
